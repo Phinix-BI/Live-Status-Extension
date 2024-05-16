@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   const api_endpoint = 'https://live-status-mu.vercel.app/api/v1/admin/update/status';
-  const api_key = "MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEAq3" || apiKey;
+  const api_key = "Your_Api_Key" || apiKey;
 
   function makeAPICall(status) {
     // Replace 'your_api_endpoint_here' with your actual API endpoint
