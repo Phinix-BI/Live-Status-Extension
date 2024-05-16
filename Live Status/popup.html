@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Portfolio Status</title>
+    <link rel="stylesheet" href="popup.css">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Live Status</h2>
+        <div>
+          <input type="text" id="apikey" placeholder="Enter your API key" style="width: 100%; padding: 5px; margin-bottom: 5px;" />
+          <button type="submit" id="submit" style="width: 100%; padding: 5px; margin-bottom: 5px;">Submit</button>
+          </div>
+        <div className = "item-flex" style="display:flex; align-items: center;
+        margin-bottom: 5px;">
+        <div style="margin-left:5px">
+          <div>
+           <label class="switch">
+            <input type="checkbox" value="Online" id="onlineToggle">
+            <span class="slider round"></span>
+           Online
+          
+            </label> 
+         </div>
+          <div>Online</div>
+      </div>
+        
+    
+      <div style="margin-left:5px">
+        <div>
+        <label class="switch">
+          <input type="checkbox" value="Offline" id="offlineToggle" checked>
+          <span class="slider round"></span>
+          Offline
+        </label>
+      </div>
+      <div>Offline</div>
+      </div>
+    
+      <!-- <div className="item-flex"> -->
+      <div style="margin-left:5px">
+        <div>
+        <label class="switch">
+          <input type="checkbox" value="Do not distrub"  id="dndToggle">
+          <span class="slider round"></span>
+          Do Not Disturb
+        </label>
+      </div>
+      <div>  DND</div>
+      </div>
+    </div>
+    <div className = "item-flex" style="display:flex; align-items: center;
+    margin-bottom: 5px;">
+      <div style="margin-left:5px">
+        <div>
+        <label class="switch">
+          <input type="checkbox" value="Chill mode" id="chillToggle">
+          <span class="slider round"></span>
+          Chill mode
+        </label>
+      </div>
+      <div>  Chill mode</div>
+      </div>
+   
+      <div style="margin-left:5px">
+        <div>
+        <label class="switch">
+          <input type="checkbox" value="Busy" id="busyToggle">
+          <span class="slider round"></span>
+          Busy
+        </label>
+      </div>
+      <div>  Busy</div>
+      </div>
+      </div>
+    </div>
+      <script src="popup.js"></script>
+</html>
